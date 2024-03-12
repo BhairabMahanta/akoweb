@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"; // Import React library
+import logo from "./logo.svg"; // Import logo image
+import "./App.css"; // Import CSS file
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+        </a>
+        {/* Add your link to home.html here */}
+        <a href="home.html" className="App-link">
+          Go to Home Page
         </a>
       </header>
     </div>
